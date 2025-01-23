@@ -6,21 +6,23 @@ public class DayOfTheWeek {
         System.out.println("Hello");
 
        Scanner sc = new Scanner(System.in);
-       System.out.println("Give a number: ");
-//        String day = sc.nextLine().toUpperCase();
-//        switch(day){
-//            case ("SUNDAY"), ("SATURDAY"):
-//                System.out.println("Week-End");
-//                break;
-//
-//
-//            case ("MONDAY"),("TUESDAY"),("WEDNESDAY"),("THURSDAY"),("FRIDAY"):
-//                System.out.println("Weekday");
-//                break;
-//
-//
-//        }
+       Scanner sc2 = new Scanner(System.in);
+       System.out.println("Give a day: ");
+        String day = sc2.nextLine().toUpperCase();
+        switch(day){
+            case ("SUNDAY"), ("SATURDAY"):
+                System.out.println("Week-End");
+                break;
 
+
+            case ("MONDAY"),("TUESDAY"),("WEDNESDAY"),("THURSDAY"),("FRIDAY"):
+                System.out.println("Weekday");
+                break;
+
+
+        }
+
+        System.out.println("Give a number: ");
         int a = sc.nextInt();
         if(a<=1) System.out.println("Please give a number greater than 1 ");
         else {
