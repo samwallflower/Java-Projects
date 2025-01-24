@@ -1,1 +1,1 @@
-Projects I did while learing Java
+Projects I did while learning Java
